@@ -1,37 +1,19 @@
 from cryptography.fernet import Fernet
+from rich.table import Table
+from rich.console import Console
 import typer
 
 app = typer.Typer()
 
+console = Console()
 
 @app.command()
-def encrypt():
+def main():
 
-    #User type message to encrypt
-    plaintext = input("Enter text to encrypt:")
-
-    #Generate encryption key
-    key = Fernet.generate_key()
-    f = Fernet(key)
-    print("Encrypytion key:", key.decode("utf8"))
-
-    #Encrypt the message
-    token = f.encrypt(plaintext.encode("utf8"))
-    print(token)
-
-@app.command()
-def decrypt():
-
-    #User message to decrypt
-    token = input("Enter text to decrypt:")
-    key = input("Enter encryption key:")
-    f = Fernet(key)
-
-    #decrypt the message
-    decrypted = f.decrypt(token.encode("utf8"))
-
-    #Print the decrypted message
-    print(decrypted.decode("utf8"))
+    table = Table("Command", "Description")
+    table.add_row("Encrypt", "Encrypt a message\n")
+    table.add_row("Decrypt", "Decrypt a message")
+    console.print(table)
 
 
 if __name__ == "__main__":
