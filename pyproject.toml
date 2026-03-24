@@ -1,0 +1,10 @@
+[project]
+name = "goldeneye"
+version = "0.1.0"
+description = "OpenSource OSINT Tool project"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cryptography>=46.0.5",
+    "typer>=0.24.1",
+]
