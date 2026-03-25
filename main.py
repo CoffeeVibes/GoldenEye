@@ -18,7 +18,7 @@ def main():
 
     while True:
         command = input("Enter a command: ")
-        if command.lower() == "encrypt" or command.lower() == "Encrypt":
+        if command.lower() in {"encrypt", "Encrypt"}:
             message = input("Enter a message to encrypt: ")
             key = Fernet.generate_key()
             encrypted_message = encrypt_message(message, key)
@@ -30,8 +30,17 @@ def main():
             print("exiting...\n")
             break
 
+        elif command.lower() in {"exit", "Exit", "quit", "Quit", "q", "Q"}:
+            console.print("Exiting the program. Goodbye!")
+            break
+
         elif command.lower() == "decrypt":
             console.print("Decryption functionality is not implemented yet.")
+
+        elif command.lower() in {"exit", "Exit", "quit", "Quit", "q", "Q"}:
+            console.print("Exiting the program. Goodbye!")
+            break
+
         else:
             console.print("Invalid command. Please try again.")
 
