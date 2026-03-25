@@ -7,3 +7,10 @@
 > [!IMPORTANT]
 >
 > If you are using my encryption tool, make sure to keep your encryption key safe as that is what will be needed to decrypt the message!
+
+# List of upcoming features:
+
+- [ ] Username search
+- [ ] IP lookup
+- [ ] Google dorking
+- [ ] Others to come!
