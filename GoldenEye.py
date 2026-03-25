@@ -15,7 +15,8 @@ def main():
     console.print("\nWelcome to the GoldenEye Encryption and Decryption Tool!\n", style="bold green")
     table = Table("Command", "Description")
     table.add_row("Encrypt", "Encrypt a message\n")
-    table.add_row("Decrypt", "Decrypt a message")
+    table.add_row("Decrypt", "Decrypt a message\n")
+    table.add_row("User Search", "Search for a username using Google.")
     console.print(table)
     console.print("\n")
 
@@ -48,8 +49,9 @@ def main():
             print("exiting...\n")
 
 
-        elif command.lower() in {"exit", "Exit", "quit", "Quit", "q", "Q"}:
-            console.print("Exiting the program. Goodbye!")
+        elif command.lower() in {"User search", "user search", "User Search"}:
+            
+            print("\n Not implemented yet. Please check back later.\n")
             break
 
         else:
