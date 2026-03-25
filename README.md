@@ -3,3 +3,7 @@
 > [!NOTE]
 >
 > This is a project I'm working on whilst learning Python & Cyber Security! It is designed to make OSINT a little easier and add whatever tools I feel like adding ☺️
+>
+> [!IMPORTANT]
+>
+> If you are using my encryption tool, make sure to keep your encryption key safe as that is what will be needed to decrypt the message!
