@@ -1,0 +1,8 @@
+GoldenEye Todo List!
+
+Todo:
+  ✔ Add encryption and decryption functionality @done(26-03-30 12:29)
+  ☐ Add username search functionality @started(26-03-30 12:39)
+  ☐ Add IP address search functionality
+  ☐ Add EXIF metadata extraction functionality
+  ☐ Clean everything up and make it look nice
