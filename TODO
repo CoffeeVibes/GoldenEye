@@ -2,7 +2,11 @@ GoldenEye Todo List!
 
 Todo:
   ✔ Add encryption and decryption functionality @done(26-03-30 12:29)
-  ☐ Add username search functionality @started(26-03-30 12:39)
+  ✔ Add username search functionality (Firefox) @started(26-03-30 12:39) @done(26-03-31 11:15) @lasted(22h36m59s)
+  ☐ Add username search functionality (Safari) @started(26-03-31 11:17)
+  ☐ Add username search functionality (Chrome)
+  ☐ Add username search functionality (Edge)
+  ☐ Add username search functionality (Internet Explorer(maybe?))
   ☐ Add IP address search functionality
   ☐ Add EXIF metadata extraction functionality
   ☐ Clean everything up and make it look nice
